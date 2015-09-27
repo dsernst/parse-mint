@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dsernst/parse-mint/issues"
   },
-  "homepage": "https://github.com/dsernst/parse-mint#readme"
+  "homepage": "https://github.com/dsernst/parse-mint#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
