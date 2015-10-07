@@ -1,6 +1,6 @@
 {
   "name": "parse-mint",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Parse Mint's weekly email reports",
   "main": "index.js",
   "scripts": {
