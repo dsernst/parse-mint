@@ -1,5 +1,8 @@
 var _ = require('lodash')
 var users = _.indexBy(require('./users.js'), 'emailAddress')
+require('dotenv').load()
+var Mailgun = require('mailgun').Mailgun
+var mg = new Mailgun(process.env.MAILGUN_KEY)
 
 function parseEmail(reqBody) {
   var emailAddress = reqBody.sender
@@ -29,8 +32,20 @@ function getStats(emailAddress, weeklySpent) {
   sendMessage(user.deliveryAddress, percentageSaved)
 }
 
-function sendMessage(to, percentageSaved) {
-
+function sendMessage(recipient, percentageSaved) {
+  mg.sendText(
+    'auto@parse-mint.dsernst.com',
+    [recipient, 'testing-parse-mint@dsernst.com'],
+    'Stache Calculator',
+    'You saved ' + percentageSaved + '% last week.',
+    function (err) {
+      if (err) {
+        console.error(err)
+      } else {
+        console.log('mg.sendText successful.')
+      }
+    }
+  )
 }
 
 parseEmail(require('./sample-body.js'))
