@@ -22,6 +22,15 @@ function getStats(emailAddress, weeklySpent) {
   }
 
   console.log('user:', user)
+
+  var percentageSaved = (user.weeklyIncome - weeklySpent) / user.weeklyIncome
+  percentageSaved = _.round(percentageSaved * 100)
+  console.log('percentageSaved:', percentageSaved + '%')
+  sendMessage(user.deliveryAddress, percentageSaved)
+}
+
+function sendMessage(to, percentageSaved) {
+
 }
 
 parseEmail(require('./sample-body.js'))
