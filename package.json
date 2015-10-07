@@ -1,21 +1,21 @@
 {
-  "name": "parse-mint",
+  "name": "stache-calculator",
   "version": "1.0.0",
-  "description": "Parse Mint's weekly email reports",
+  "description": "An automatic text with your weekly savings percentage",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dsernst/parse-mint.git"
+    "url": "git+https://github.com/dsernst/stache-calculator.git"
   },
   "author": "dsernst",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dsernst/parse-mint/issues"
+    "url": "https://github.com/dsernst/stache-calculator/issues"
   },
-  "homepage": "https://github.com/dsernst/parse-mint#readme",
+  "homepage": "https://github.com/dsernst/stache-calculator#readme",
   "dependencies": {
     "body-parser": "^1.14.0",
     "dotenv": "^1.2.0",
