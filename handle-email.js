@@ -48,4 +48,5 @@ function sendMessage(recipient, percentageSaved) {
   )
 }
 
-parseEmail(require('./sample-body.js'))
+// parseEmail(require('./sample-body.js'))
+module.exports = parseEmail
