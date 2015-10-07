@@ -35,7 +35,7 @@ function getStats(emailAddress, weeklySpent) {
 function sendMessage(recipient, percentageSaved) {
   mg.sendText(
     'auto@parse-mint.dsernst.com',
-    [recipient, 'testing-parse-mint@dsernst.com'],
+    recipient,
     'Stache Calculator',
     'You saved ' + percentageSaved + '% last week.',
     function (err) {
