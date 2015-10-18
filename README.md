@@ -4,4 +4,15 @@
 
 ![stache-calculator screenshot](screenshot.png)
 
-Send an email to [stache-calculator@dsernst.com](mailto:stache-calculator@dsernst.com) to get started.
+## How it works
+
+0. Sign up for Mint and link the financial accounts you want to track.
+1. Enable the weekly email reports.
+2. Set up a Gmail filter to auto-forward these reports to [auto@stache.dsernst.com](mailto:auto@stache.dsernst.com)
+  - The first time, you'll need to add your phone number.
+
+Now you'll automatically receive notifications by text message.
+
+## Getting Started
+
+Write me at [stache-calculator@dsernst.com](mailto:stache-calculator@dsernst.com) if you're interested in starting.
