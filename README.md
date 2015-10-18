@@ -4,12 +4,13 @@
 
 ![stache-calculator screenshot](screenshot.png)
 
-## How it works
+## How It Works
 
-0. Sign up for Mint and link the financial accounts you want to track.
+0. Sign up for Mint, link the financial accounts you want to track.
 1. Enable the weekly email reports.
 2. Set up a Gmail filter to auto-forward these reports to [auto@stache.dsernst.com](mailto:auto@stache.dsernst.com)
-  - The first time, you'll need to add your phone number.
+  - Use this search string: `from:(team@mint.com) subject:("Your Weekly Financial Summary from Mint.com")`
+  - The first time, you'll be asked what phone number to send the reports to.
 
 Now you'll automatically receive notifications by text message.
 
