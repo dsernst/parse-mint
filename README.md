@@ -8,7 +8,7 @@
 
 0. Sign up for Mint, link the financial accounts you want to track.
 1. Enable the weekly email reports.
-2. Set up a Gmail filter to auto-forward these reports to [auto@stache.dsernst.com](mailto:auto@stache.dsernst.com)
+2. Set up a [Gmail filter](https://support.google.com/mail/answer/6579?hl=en) to auto-forward these reports to [auto@stache.dsernst.com](mailto:auto@stache.dsernst.com)
   - Use this search string: `from:(team@mint.com) subject:("Your Weekly Financial Summary from Mint.com")`
   - The first time, you'll be asked what phone number to send the reports to.
 
